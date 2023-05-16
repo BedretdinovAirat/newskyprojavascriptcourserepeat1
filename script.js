@@ -54,5 +54,77 @@
 // alert(user.age);
 // alert(user.isAdmin);
 // 10 mission
-let user = prompt("Введите ваше имя");
-alert(`Привет, ${user} !`);
+// let user = prompt("Введите ваше имя");
+// alert(`Привет, ${user} !`);
+
+// 2.3 Условное ветвление
+// 1 mission
+// let password = 'пароль';
+// let userPassword = prompt('Введите пароль');
+// if (userPassword === password) {
+//     alert("Пароль введен верно");
+// } else {
+//     alert("Пароль введен неправильно");
+// }
+// 2 mission
+// let c = 10;
+// if (c > 0 && c < 10) {
+//   console.log("Верно");
+// } else {
+//   console.log("Не верно");
+// }
+// 3 mission
+// let d = 70;
+// let e = 200;
+// if (d > 100 || e > 100) {
+//     console.log("Верно");
+// } else {
+//     console.log("Не верно");
+// }
+// 4 mission
+// let a = '2';
+// let b = '3';
+// alert(Number(a) + Number(b));
+// 5 mission
+let numberMonth = Number(prompt("Введите номер месяца"));
+switch (numberMonth) {
+  case (numberMonth = 1):
+    console.log("Зима");
+    break;
+  case (numberMonth = 2):
+    console.log("Зима");
+    break;
+  case (numberMonth = 3):
+    console.log("Весна");
+    break;
+  case (numberMonth = 4):
+    console.log("Весна");
+    break;
+  case (numberMonth = 5):
+    console.log("Весна");
+    break;
+  case (numberMonth = 6):
+    console.log("Лето");
+    break;
+  case (numberMonth = 7):
+    console.log("Лето");
+    break;
+  case (numberMonth = 8):
+    console.log("Лето");
+  case (numberMonth = 9):
+    console.log("Осень");
+    break;
+  case (numberMonth = 10):
+    console.log("Осень");
+    break;
+  case (numberMonth = 11):
+    console.log("Осень");
+    break;
+  case (numberMonth = 12):
+    console.log("Зима");
+  case (numberMonth = 13):
+    console.log("НЕ РАБОТАЕТ");
+    break;
+  default:
+    break;
+}
