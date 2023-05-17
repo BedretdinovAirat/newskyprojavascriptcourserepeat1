@@ -86,45 +86,73 @@
 // let b = '3';
 // alert(Number(a) + Number(b));
 // 5 mission
-let numberMonth = Number(prompt("Введите номер месяца"));
-switch (numberMonth) {
-  case (numberMonth = 1):
-    console.log("Зима");
-    break;
-  case (numberMonth = 2):
-    console.log("Зима");
-    break;
-  case (numberMonth = 3):
-    console.log("Весна");
-    break;
-  case (numberMonth = 4):
-    console.log("Весна");
-    break;
-  case (numberMonth = 5):
-    console.log("Весна");
-    break;
-  case (numberMonth = 6):
-    console.log("Лето");
-    break;
-  case (numberMonth = 7):
-    console.log("Лето");
-    break;
-  case (numberMonth = 8):
-    console.log("Лето");
-  case (numberMonth = 9):
-    console.log("Осень");
-    break;
-  case (numberMonth = 10):
-    console.log("Осень");
-    break;
-  case (numberMonth = 11):
-    console.log("Осень");
-    break;
-  case (numberMonth = 12):
-    console.log("Зима");
-  case (numberMonth = 13):
-    console.log("НЕ РАБОТАЕТ");
-    break;
-  default:
-    break;
-}
+// let numberMonth = Number(prompt("Введите номер месяца"));
+// switch (numberMonth) {
+//   case (numberMonth = 1):
+//     console.log("Зима");
+//     break;
+//   case (numberMonth = 2):
+//     console.log("Зима");
+//     break;
+//   case (numberMonth = 3):
+//     console.log("Весна");
+//     break;
+//   case (numberMonth = 4):
+//     console.log("Весна");
+//     break;
+//   case (numberMonth = 5):
+//     console.log("Весна");
+//     break;
+//   case (numberMonth = 6):
+//     console.log("Лето");
+//     break;
+//   case (numberMonth = 7):
+//     console.log("Лето");
+//     break;
+//   case (numberMonth = 8):
+//     console.log("Лето");
+//   case (numberMonth = 9):
+//     console.log("Осень");
+//     break;
+//   case (numberMonth = 10):
+//     console.log("Осень");
+//     break;
+//   case (numberMonth = 11):
+//     console.log("Осень");
+//     break;
+//   case (numberMonth = 12):
+//     console.log("Зима");
+//   case (numberMonth = 13):
+//     console.log("НЕ РАБОТАЕТ");
+//     break;
+//   default:
+//     break;
+// }
+// Practice 2.3
+// mission 7
+// let userNumber = prompt("Пожалуйста, введите любое число");
+// if (userNumber % 2 === 0) {
+//   alert("Число четное");
+// } else {
+//   alert("Число нечетное");
+// }
+// mission 8
+// let clientOS = prompt(
+//   "Введите пожалуйста цифру значением 0 или 1, 0 - если у вас IOS, 1 - android"
+// );
+// let clientDeviceYear = prompt(
+//   "Введите год выпуска, если ваш телефон выпущен до 2015 года, вам будет предоставлена ссылка на установка упрощенные версии"
+// );
+// if (clientDeviceYear <= 2015) {
+//   console.log("Установите упрощенную версию приложения для Android по ссылке: 'ссылка'");
+//   console.log("Установите упрощенную версию приложения для iOS по ссылке: 'ссылка'");
+// } else if (clientOS == true) {
+//   console.log("Установите версию приложения для Android по ссылке");
+// } else {
+//   console.log("Установите версию приложения для iOS по ссылке");
+// }
+// if (clientOS == true) {
+//   console.log("Установите версию приложения для Android по ссылке");
+// } else {
+//   console.log("Установите версию приложения для iOS по ссылке");
+// }
