@@ -242,23 +242,23 @@ console.log(user.getInfo());
 // }
 // userCub();
 // 7 mission alt + shift + f - format
-function getArea() {
-  return Math.PI * this.radius**2;
-}
-function getPerimeter() {
-  return 2 * Math.PI * this.radius;
-}
-const circle1 = {
-  radius: 20,
-  area: getArea,
-  perimeter: getPerimeter,
-};
-const circle2 = {
-  radius: 10,
-  area: getArea,
-  perimeter: getPerimeter,
-};
-console.log(circle1.area());
-console.log(circle2.perimeter());
-console.log(circle2.area());
-console.log(circle2.perimeter());
+// function getArea() {
+//   return Math.PI * this.radius**2;
+// }
+// function getPerimeter() {
+//   return 2 * Math.PI * this.radius;
+// }
+// const circle1 = {
+//   radius: 20,
+//   area: getArea,
+//   perimeter: getPerimeter,
+// };
+// const circle2 = {
+//   radius: 10,
+//   area: getArea,
+//   perimeter: getPerimeter,
+// };
+// console.log(circle1.area());
+// console.log(circle2.perimeter());
+// console.log(circle2.area());
+// console.log(circle2.perimeter());
