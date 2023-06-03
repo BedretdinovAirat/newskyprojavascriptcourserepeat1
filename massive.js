@@ -198,99 +198,101 @@
 // console.log(newspaper.business.writers[0]);
 // console.log(newspaper["movies"]["title"]);
 // homework massive
-// 1 mission
-let numArr = [1, 5, 4, 10, 0, 3];
-for (let i = 0; i < numArr.length; i++) {
-  if (numArr[i] === 10) break;
-  console.log(numArr[i]);
-}
-// 2 mission
-let arrNum = [1, 5, 4, 10, 0, 3];
-// console.log(arrNum.includes(4));
-// arrNum.forEach((el, index) => {
-//     console.log(`${index}: ${el}`);
-// })
-console.log(`Задание, 2 Позиция: ${arrNum.indexOf(4)}`);
-// 3 mission
-let numberArr = [1, 3, 5, 10, 20];
-let readyNumberArr = numberArr.join(" ");
-console.log(`Задание 3: ${readyNumberArr}`);
-// 4 mission
-let arr = [];
-for (let i = 0; i < 3; i++) {
-  arr[i] = [];
-  for (let l = 0; l < 3; l++) {
-    // arr[i].push(l + 1);
-    arr[i].push(1);
-  }
-}
-console.log(`Задание 4: ${arr}`);
-// 5 mission
-let arrNumber = [1, 1, 1];
-// arrNumber.push(1);
-console.log(arrNumber);
-for (let i = 0; i <= 2; i++) {
-  arrNumber.push(2);
-}
-console.log(arrNumber);
-// 6 mission
-const numArrStr = [9, 8, 7, "a", 6, 5];
-numArrStr.sort().pop();
-console.log(numArrStr);
-// 7 mission
-const arrayNumbers = [9, 8, 7, 6, 5];
-let userNumber = Number(prompt("Введите число от 1 до 10"));
-console.log(arrayNumbers.includes(userNumber));
-// function funcArr(userNumber) {
-//   // for (let num = 0; num < arrayNumbers.length; num++) {
-//   //   if (arrayNumbers[num] === userNumber) {
-//   //     alert("Число есть в массиве!");
-//   //   } else {
-//   //     alert("Числа нет в массиве");
-//   //     break;
-//   //   }
-//   // }
-//   return arrayNumbers.includes(userNumber);
+
+
+// // 1 mission
+// let numArr = [1, 5, 4, 10, 0, 3];
+// for (let i = 0; i < numArr.length; i++) {
+//   if (numArr[i] === 10) break;
+//   console.log(numArr[i]);
 // }
-// console.log(funcArr());
-// 8 mission
-let massiveStr = "abcdef";
-let reverseMassiveStr = massiveStr.split("");
-console.log(reverseMassiveStr.reverse());
-// 9 mission
-const massiveNumbers = [
-  [1, 2, 3],
-  [4, 5, 6],
-];
-console.log(massiveNumbers.flat());
-// 10 mission
-const randomMassive = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (let i = 0; i < randomMassive.length; i++) {
-  console.log(randomMassive[i + 1]);
-}
-// 11 mission
-// const wholeArr = [2, 4, 6, 8, 10];
-function squareNumbers(wholeArr) {
-  console.log(wholeArr.map((el) => el ** 2));
-}
-squareNumbers([2,4,6,8,10]);
-// 12 mission
-const arrString = ["word", "length", "arr", "massive", "Длинное предложение"];
-function arrayString() {
-  for (let el = 0; el < arrString.length; el++) {
-    console.log(arrString[el].length);
-  }
-}
-arrayString();
-// 13 mission
-function filterPositive(array) {
-  array.forEach((el) => {
-    if (el < 0) {
-      console.log(el);
-    }
-  });
-}
-filterPositive([1, 2, 3, 10, -1, -305]);
+// // 2 mission
+// let arrNum = [1, 5, 4, 10, 0, 3];
+// // console.log(arrNum.includes(4));
+// // arrNum.forEach((el, index) => {
+// //     console.log(`${index}: ${el}`);
+// // })
+// console.log(`Задание, 2 Позиция: ${arrNum.indexOf(4)}`);
+// // 3 mission
+// let numberArr = [1, 3, 5, 10, 20];
+// let readyNumberArr = numberArr.join(" ");
+// console.log(`Задание 3: ${readyNumberArr}`);
+// // 4 mission
+// let arr = [];
+// for (let i = 0; i < 3; i++) {
+//   arr[i] = [];
+//   for (let l = 0; l < 3; l++) {
+//     // arr[i].push(l + 1);
+//     arr[i].push(1);
+//   }
+// }
+// console.log(`Задание 4: ${arr}`);
+// // 5 mission
+// let arrNumber = [1, 1, 1];
+// // arrNumber.push(1);
+// console.log(arrNumber);
+// for (let i = 0; i <= 2; i++) {
+//   arrNumber.push(2);
+// }
+// console.log(arrNumber);
+// // 6 mission
+// const numArrStr = [9, 8, 7, "a", 6, 5];
+// numArrStr.sort().pop();
+// console.log(numArrStr);
+// // 7 mission
+// const arrayNumbers = [9, 8, 7, 6, 5];
+// let userNumber = Number(prompt("Введите число от 1 до 10"));
+// console.log(arrayNumbers.includes(userNumber));
+// // function funcArr(userNumber) {
+// //   // for (let num = 0; num < arrayNumbers.length; num++) {
+// //   //   if (arrayNumbers[num] === userNumber) {
+// //   //     alert("Число есть в массиве!");
+// //   //   } else {
+// //   //     alert("Числа нет в массиве");
+// //   //     break;
+// //   //   }
+// //   // }
+// //   return arrayNumbers.includes(userNumber);
+// // }
+// // console.log(funcArr());
+// // 8 mission
+// let massiveStr = "abcdef";
+// let reverseMassiveStr = massiveStr.split("");
+// console.log(reverseMassiveStr.reverse());
+// // 9 mission
+// const massiveNumbers = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+// ];
+// console.log(massiveNumbers.flat());
+// // 10 mission
+// const randomMassive = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = 0; i < randomMassive.length; i++) {
+//   console.log(randomMassive[i + 1]);
+// }
+// // 11 mission
+// // const wholeArr = [2, 4, 6, 8, 10];
+// function squareNumbers(wholeArr) {
+//   console.log(wholeArr.map((el) => el ** 2));
+// }
+// squareNumbers([2,4,6,8,10]);
+// // 12 mission
+// const arrString = ["word", "length", "arr", "massive", "Длинное предложение"];
+// function arrayString() {
+//   for (let el = 0; el < arrString.length; el++) {
+//     console.log(arrString[el].length);
+//   }
+// }
+// arrayString();
+// // 13 mission
+// function filterPositive(array) {
+//   array.forEach((el) => {
+//     if (el < 0) {
+//       console.log(el);
+//     }
+//   });
+// }
+// filterPositive([1, 2, 3, 10, -1, -305]);
 // 14 mission
 // const rrrr = Math.random() * (10 - 0) + 0;
 // console.log(rrrr);
