@@ -297,14 +297,14 @@ toTimeString()
 // Время: <часы>:<минуты>:<секунды>
 // Время, которое будет выведено, также хранится в объекте Date.
 // let data = new Date();
-function russianData() {
-    const today = new Date();
-    const dateSrc = today.toLocaleString("ru-RU", {
-      year: "numeric",
-      month: "numeric",
-      day: "numeric",
-    });
-    dateDst = dateSrc.split(".").reverse().join("-");
-    console.log(dateSrc);
-}
-russianData();
+// function russianData() {
+//     const today = new Date();
+//     const dateSrc = today.toLocaleString("ru-RU", {
+//       year: "numeric",
+//       month: "numeric",
+//       day: "numeric",
+//     });
+//     dateDst = dateSrc.split(".").reverse().join("-");
+//     console.log(dateSrc);
+// }
+// russianData();
